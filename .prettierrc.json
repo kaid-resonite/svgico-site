@@ -1,0 +1,17 @@
+{
+    "useTabs": false,
+    "trailingComma": "all",
+    "tabWidth": 4,
+    "singleQuote": true,
+    "semi": true,
+    "importOrderSortSpecifiers": true,
+    "importOrderSeparation": true,
+    "importOrder": [
+        "^server-only$",
+        "^(react|next)(.*)$",
+        "<THIRD_PARTY_MODULES>",
+        "^@/(.*)$",
+        "^[./]"
+    ],
+    "plugins": ["@trivago/prettier-plugin-sort-imports"]
+}

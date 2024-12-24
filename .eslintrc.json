@@ -1,0 +1,12 @@
+{
+    "extends": [
+        "next",
+        "plugin:prettier/recommended",
+        "plugin:unicorn/recommended",
+        "plugin:security/recommended-legacy"
+    ],
+    "plugins": ["prettier", "unicorn", "security"],
+    "rules": {
+        "unicorn/no-useless-undefined": "off"
+    }
+}
